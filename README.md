@@ -5,6 +5,15 @@ Simple password generator class. Generates a user-customized, random password. S
 
     from src.simplepw.simplepw import SimplePW  
     
+    """  
+    Default settings for password options are:
+    - Password length:           10
+    - Special characters:     False
+    - Digits:                  True
+    - Uppercase:               True
+    - Lowercase:               True
+    """  
+    
     # EXAMPLE 1: Create and configure a SimplePW object, then generate.
 
     SPW = SimplePW()  
